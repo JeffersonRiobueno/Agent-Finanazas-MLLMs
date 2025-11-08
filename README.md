@@ -10,7 +10,7 @@ Este proyecto implementa un agente de IA para registrar gastos usando LangChain,
 4. Instala dependencias: `pip install -r requirements.txt`
 
 ## Configuración
-
+  
 Edita el archivo `.env` con tus credenciales:
 
 - DB_HOST, DB_PORT, DB_NAME=n8n_db, DB_USER, DB_PASSWORD
@@ -31,7 +31,7 @@ Envía POST a `/webhook/` con body JSON:
 }
 ```
 
-Para audio/imagen, usa base64 en `filename`.
+Para audio/imagen, usa base64 en `content`.
 
 ## Funcionalidades
 
